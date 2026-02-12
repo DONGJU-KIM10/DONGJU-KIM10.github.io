@@ -43,8 +43,19 @@
   gap: 15px; /* 박스 사이의 직선 간격 */
 }
 
+  .parent {
+  display: flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;     /* 세로 중앙 */
+  height: 200px;
+}
+
+.child {
+  flex: 1; /* 부모 너비에 맞춰 꽉 채우기 */
+}
+flex는 직접 코드를 만져보며 아이템들이 꿀렁꿀렁 움직이는
 .box {
-  flex: 1; /* 5개 박스가 동일한 너비 점유 */
+  flex: ; /* 5개 박스가 동일한 너비 점유 */
   height: 200px;
   border: 1px solid #e0e0e0; /* 얇은 직선 테두리 */
   background-color: #ffffff;
